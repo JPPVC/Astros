@@ -1,0 +1,31 @@
+/*	ASTROS PROJECT 
+	2025
+	This files implements a simple particle rigid body system
+	simulation which should be used only as a test for the API
+
+*/
+#ifndef __ASTROS_JPPVC_SIM_RIGIDRULES_DEMO__
+#define __ASTROS_JPPVC_SIM_RIGIDRULES_DEMO__
+
+#include<Astros/sim/core.hpp>
+
+namespace Astros {
+
+class Particle : public Object {
+	
+	private:
+	
+	public:
+	void setPosition();
+
+};
+
+class RigidBodyRule : public Rule
+	
+	private:
+	
+	public:
+
+};
+
+#endif
