@@ -58,6 +58,7 @@ class RuntimeRule {
 };
 
 //this is what spit out by the clock after it does its calculations 
+;;;;
 typedef struct ClockTickResultStruct {
 	long long curr_time;
 	long long lag;

@@ -3,8 +3,6 @@
 	This files implements a simple particle rigid body system
 	simulation which should be used only as a test for the API
 
-	This is an implementation of the "Nonconvex Rigid Bodies with Stacking" paper
-	https://physbam.stanford.edu/~fedkiw/papers/stanford2003-01.pdf
 */
 #ifndef __ASTROS_JPPVC_SIM_RIGIDRULES_DEMO__
 #define __ASTROS_JPPVC_SIM_RIGIDRULES_DEMO__
@@ -22,12 +20,12 @@ class Particle : public Object {
 
 };
 
-class RigidBodyRule : public Rule
+class RigidBodyRule : public Rule {
 	
 	private:
 	
 	public:
-	
+
 };
 
 #endif
